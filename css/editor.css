@@ -1,0 +1,113 @@
+
+/*---------------------------------------------------------*/
+/* General Styles                                          */
+/*---------------------------------------------------------*/
+
+#wpbody .wrap > h2 { display:none; }
+
+.msp-preview-area img {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.msp_list .msp-preview-area {
+	display: inline-block;
+	max-width: 100px;
+	vertical-align: top;
+	padding: 0 10px;
+}
+
+div.msp-section-title {
+	padding-bottom: 10px;
+}
+
+.msp-section-title span {
+	font-weight: bold;
+}
+
+.msp-section-field {
+	margin-bottom: 20px;
+}
+.msp-section-field:last-child {
+	margin-bottom: 0px;
+}
+
+.msp-section-field .msp-section-field-title {
+	font-weight: 600;
+	font-size: 14px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.msp-call-to-action {
+	opacity: 0.5;
+}
+
+.msp-call-to-action:hover {
+	opacity: 1;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Metabox Lists                                           */
+/*---------------------------------------------------------*/
+
+.msp_list .msp_list_items .msp_list_item {
+	border: 1px solid #DFDFDF;
+	border-radius: 5px;
+	margin: 5px;
+	background: #F5F5F5;
+}
+
+.msp_list .msp_list_items .msp_list_item .msp_list_item_header {
+	background: #ececec;
+	border-radius: 5px 5px 0px 0px;
+	padding: 5px;
+	cursor: move;
+}
+
+.msp_list .msp_list_items .msp_list_item .msp_list_item_title {
+	display: block;
+	font-size: 14px;
+	float: left;
+	margin: 2px 0px;
+	padding: 3px 4px;
+	line-height: 1;
+	width: 175px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.msp_list .msp_list_items .msp_list_item textarea {
+	width: 80%;
+}
+
+.msp_list .msp_list_items .msp_list_item .msp_list_item_remover {
+	float: right;
+}
+
+.msp_list .msp_list_items .msp_list_item .msp_list_item_content {
+	padding: 5px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Metabox Details                                         */
+/*---------------------------------------------------------*/
+
+#msp_action_video {
+	width: 75%;
+}
+
+.msp_seo_metabox #msp_seo_title-length,
+.msp_seo_metabox #msp_seo_metadesc-length {
+	color: green;
+	font-weight: bold;
+}
+
+.msp_seo_metabox #msp_seo_title-length.bad,
+.msp_seo_metabox #msp_seo_metadesc-length.bad {
+	color: red;
+}

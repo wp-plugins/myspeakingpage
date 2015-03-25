@@ -1,0 +1,174 @@
+
+/*---------------------------------------------------------*/
+/* Admin Header                                            */
+/*---------------------------------------------------------*/
+
+.msp-header .msp-title {
+	padding: 10px 0 15px;
+	font-size: 40px;
+}
+
+.msp-header .msp-logo {
+	vertical-align: middle;
+}
+
+.msp-header .msp-title-text {
+	font-size: 40px;
+	font-weight: bolder;
+	color: #333333;
+
+	display: inline;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+
+.msp-header .msp-title-text .msp-title-speaking {
+	color: #CB3301;
+}
+
+.msp-header a.msp-get-more-info {
+	font-size: 20px;
+	vertical-align: middle;
+	margin-left: 20px;
+	opacity: 0.4;
+}
+
+.msp-header a.msp-get-more-info:hover {
+	opacity: 1;
+}
+
+#msp-more-info {
+	display: none;
+}
+
+.msp-more-info {
+	position: absolute;
+	top: 30px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	padding: 2px 15px 15px 15px;
+	overflow-y: scroll;
+}
+
+.msp-more-info .msp-video-container {
+	text-align: center;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Setup Options                                           */
+/*---------------------------------------------------------*/
+
+.msp-setup-options {
+	display: inline-block;
+	text-align: center;
+}
+
+.msp-setup-options .msp-or {
+	font-size: 1.4em;
+	line-height: 2;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Admin Notices                                           */
+/*---------------------------------------------------------*/
+
+.msp-admin-notice {
+	position: relative;
+	z-index: 100;
+	border: 1px solid #21759b;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: inset 0 0 15px rgba(0,0,0,0.04);
+	-moz-box-shadow: inset 0 0 15px rgba(0,0,0,0.04);
+	box-shadow: inset 0 0 15px rgba(0,0,0,0.04);
+	background: #2a95c5;
+	display: inline-block;
+	min-width: 50%;
+
+	padding-right: 10px;
+	margin: 5px 10px 2px;
+	overflow: hidden;
+}
+
+.msp-admin-notice h4 {
+	font-size: 18px;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+	font-weight: normal;
+	line-height: 36px;
+	text-shadow: 0 1px 1px #21759b;
+	color: white;
+	vertical-align: middle;
+
+	display: inline-block;
+	margin: 6px 5px 6px 10px;
+	float: left;
+
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.msp-admin-notice .notice-button {
+	font-family: "Helvetica Neue",Helvetica,Arial,"Lucida Grande",Verdana,"Bitstream Vera Sans",sans-serif;
+	font-weight: bold;
+	font-size: 16px!important;
+	line-height: 16px!important;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+	border: 1px solid #21759B;
+	border-bottom-color: #1E6A8D;
+	border-radius: 5px;
+	background-color: #21759B;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#2a95c5),to(#21759b));
+	background-image: -webkit-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -moz-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -ms-linear-gradient(top,#2a95c5,#21759b);
+	background-image: -o-linear-gradient(top,#2a95c5,#21759b);
+	background-image: linear-gradient(to bottom,#2a95c5,#21759b);
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.5);
+
+	display: inline-block;
+	margin: 10px 0px 10px 7px;
+	padding: 6px 15px;
+	float: right;
+
+	-webkit-transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	cursor: pointer;
+}
+
+.msp-admin-notice .notice-button.secondary {
+	opacity: .5;
+}
+
+.msp-admin-notice .notice-button:hover, .msp-admin-notice .notice-button:active {
+	background-color: #278AB7;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(#2e9fd2),to(#21759b));
+	background-image: -webkit-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -moz-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -ms-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: -o-linear-gradient(top,#2e9fd2,#21759b);
+	background-image: linear-gradient(to bottom,#2e9fd2,#21759b);
+	border-color: #1B607F;
+	-webkit-box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	box-shadow: inset 0 1px 0 rgba(120,200,230,0.6);
+	text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.3);
+
+	opacity: 1;
+	-webkit-transition-duration: .3s;
+}
+
+.msp-allow-tracking-pointer .wp-pointer-content h3:before {
+	content: '\f482';
+}

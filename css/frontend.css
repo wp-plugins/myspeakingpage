@@ -1,0 +1,162 @@
+
+.myspeakingpage .msp-action-image img,
+.myspeakingpage .msp-headshot img,
+.myspeakingpage .msp-testimonial img,
+.myspeakingpage .msp-topic img,
+.myspeakingpage .msp-audio img
+ {
+	background: none;
+	border-radius: 0px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.myspeakingpage .msp-call-to-action {
+	text-align: center;
+	clear: both;
+}
+
+.msp-call-to-action.final {
+	padding-top: 10px;
+}
+
+.myspeakingpage .msp-action-image {
+	padding: 10px;
+}
+
+.myspeakingpage .msp-action-image img {
+	width: 100%;
+}
+
+.myspeakingpage .msp-action-video {
+	text-align: center;
+	padding: 10px;
+	overflow: hidden;
+}
+
+.myspeakingpage .msp-action-video iframe {
+	display: inline;
+}
+
+.myspeakingpage section {
+	padding: 30px 0px 10px 0px;
+}
+
+.myspeakingpage .msp-headshots-section h1 {
+	margin-bottom: 0px;
+}
+
+.myspeakingpage .msp-headshot img {
+	height: 100px;
+}
+
+.myspeakingpage .msp-headshot {
+	float: left;
+	padding: 0px 10px 10px 0px;
+}
+
+.myspeakingpage .msp-video {
+	padding: 10px;
+}
+
+.myspeakingpage .msp-video .msp-video-title {
+	font-weight: bold;
+}
+
+.myspeakingpage .msp-testimonial {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.myspeakingpage .msp-testimonial img {
+	width: 100px;
+	margin-right: 10px;
+	float: left;
+}
+
+.myspeakingpage .msp-testimonial .msp-testimonial-meta div {
+	text-align: right;
+}
+
+.myspeakingpage .msp-testimonials-section .msp-more-page {
+	float: right;
+}
+
+.myspeakingpage .msp-topic {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.myspeakingpage .msp-topic .msp-topic-title {
+	font-weight: bold;
+}
+
+.myspeakingpage .msp-topic img {
+	width: 100px;
+	margin-right: 10px;
+	float: left;
+}
+
+.myspeakingpage .msp-topics-section .msp-more-page {
+	float: right;
+}
+
+.myspeakingpage .msp-audio {
+	padding: 5px 10px;
+	margin-bottom: 10px;
+}
+
+.myspeakingpage .msp-audio .msp-audio-title {
+	font-weight: bold;
+}
+
+.myspeakingpage .msp-audio img {
+	width: 100px;
+}
+
+
+
+/*---------------------------------------------------------*/
+/* Buttons                                                 */
+/*---------------------------------------------------------*/
+
+.myspeakingpage .msp-buttons {
+	padding: 10px;
+	text-align: center;
+}
+
+.myspeakingpage a.msp-button {
+	font-family: Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 14px;
+	vertical-align: middle;
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+
+	border-radius: 10px;
+	background: #5C91B9;
+
+	display: inline-block;
+	margin: 0 0 0 5px;
+	padding: 6px 15px;
+	position: relative;
+	box-sizing: content-box;
+}
+
+.myspeakingpage a.msp-button:hover {
+	text-decoration: none;
+	background: #4C7696;
+}
+
+.myspeakingpage a.msp-button.big {
+	font-size: 40px;
+	line-height: 45px;
+}
+
+.myspeakingpage a.msp-button:link, .myspeakingpage a.msp-button:visited {
+	color: white;
+}
